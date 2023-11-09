@@ -1,0 +1,85 @@
+.header{
+    margin-top: 150px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    font-style: oblique;     
+}
+
+.About{
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    font-style: oblique;
+    margin-left: 50px;
+}
+
+.proyectos{
+    list-style-position: inside;
+    text-align: center; 
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    /* margin-right: 70%; */
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    font-style: oblique;
+}
+
+.linkd, .gith, .soft li, .proyectos ul{
+    margin-right: 40px;
+}
+
+/* .proyectos ul{
+    margin-right: 30%;
+} */
+
+/* .proyectos ul li{
+    width: 100px;
+} */
+
+/* .proyectos a{
+    margin-right: 90px;
+} */
+
+.cv{
+    /* margin-right: 1100px; */
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    font-style: oblique;
+}
+
+.contact{
+    list-style-position: inside;
+    text-align: center; 
+    /* margin-right: 75%; */
+    color: white;
+    text-shadow: 2px 2px 0 black;
+    font-style: oblique;
+}
+/* 
+.contact a{
+    margin-right: 50%;
+} */
+
+.skills{
+    /* margin-right: 80%; */
+    list-style-position: inside;
+    text-align: center; 
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    font-style: oblique;
+}
+
+/* .tech{
+    width: 500px;
+} */
+
+/* .tech ul li{
+    width: 500px; 
+} */
+
+/* .lib{
+    width: 500px;
+} */
+/* 
+.db{
+    margin-right: 35%;
+} */

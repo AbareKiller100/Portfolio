@@ -1,0 +1,22 @@
+.content {
+    margin-top: 125px; /* La misma altura que la navbar */
+
+}
+
+.content div h2, .content div p{
+    color: white;
+    text-shadow: 1px 1px 0 black;
+}
+
+.capturas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 680px;
+    height: 400px;
+    margin: 10px;
+    border: 10px ridge rgb(128, 127, 127);
+}

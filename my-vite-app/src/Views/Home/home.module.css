@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(144, 142, 142);
+    background-image: url('../../../assets/fondo-portfolio.jpg');
+
+}
+
+.presentacion{
+    font-style: oblique;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+
+.title{
+    font-style: oblique;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
