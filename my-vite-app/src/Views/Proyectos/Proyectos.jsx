@@ -46,9 +46,9 @@ const Proyectos = () => {
                 WanderLuxe fue el proyecto que nos dio paso a la graduación, a mí y a mi equipo.  La aplicación se enfoca en el negocio de alquiler de propiedades, sirviendo de intermediario entre propietarios e inquilinos. Contribuí a la creación de controladores, manejadores y el enrutado en el Back-end, así como al diseño y creación de modelos de datos clave. Además orienté a otros miembros del equipo en ciertas funcionalidades del proyecto.
             </p>
 
-            <img src='assets/capturaWL1.png' alt=''/>
-            <img src='assets/capturaWL2.png' alt=''/>
-            <img src='assets/capturaWL3.png' alt=''/>
+            <img src='../../../assets/capturaWL1.png' alt=''/>
+            <img src='../../../assets/capturaWL2.png' alt=''/>
+            <img src='../../../assets/capturaWL3.png' alt=''/>
             
             <a href='https://pf-2-lavenganza-front-6doztsbfp-migorriti.vercel.app/home' className={style.wander}><button>Visítalo</button></a>
         </div>
