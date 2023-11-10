@@ -36,9 +36,9 @@ const About = () => {
         <div className={style.contact}>
           <h2 className={style.ch2}>Datos de contacto:</h2>
           <ul>
-            <a href='https://www.linkedin.com/in/lorenzo-santos-34a109267/'><li className={style.linkd}>LinkedIn</li></a>
+            <a href='https://www.linkedin.com/in/lorenzo-santos-34a109267/' target='_blank'><li className={style.linkd}>LinkedIn</li></a>
             
-            <a href='https://github.com/AbareKiller100'><li className={style.gith}>GitHub</li></a>
+            <a href='https://github.com/AbareKiller100' target='_blank'><li className={style.gith}>GitHub</li></a>
             
             <li>mail: lorenzosantos100211@gmail.com</li>
           </ul>
