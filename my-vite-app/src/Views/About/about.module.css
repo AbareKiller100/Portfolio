@@ -23,10 +23,9 @@
     font-style: oblique;
 }
 
-.linkd, .gith, .soft li, .proyectos ul{
+.soft li, .proyectos ul{
     margin-right: 40px;
 }
-
 /* .proyectos ul{
     margin-right: 30%;
 } */
@@ -49,15 +48,16 @@
 .contact{
     list-style-position: inside;
     text-align: center; 
-    /* margin-right: 75%; */
     color: white;
     text-shadow: 2px 2px 0 black;
     font-style: oblique;
 }
-/* 
+
+
+
 .contact a{
-    margin-right: 50%;
-} */
+    margin-right: 50px;
+}
 
 .skills{
     /* margin-right: 80%; */
