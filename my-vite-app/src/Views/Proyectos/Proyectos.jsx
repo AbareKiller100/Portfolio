@@ -36,6 +36,8 @@ const Proyectos = () => {
             <img src='assets/captura2IGM.png' alt=''/>
             <img src='assets/captura3IGM.png' alt=''/>
 
+            <a href='https://rumrum-nyd5.vercel.app/' className={style.ignite}><button>Visítalo</button></a>
+            
         </div>
 
         <div>
@@ -48,6 +50,7 @@ const Proyectos = () => {
             <img src='assets/capturaWL2.png' alt=''/>
             <img src='assets/capturaWL3.png' alt=''/>
             
+            <a href='https://pf-2-lavenganza-front-6doztsbfp-migorriti.vercel.app/home' className={style.wander}><button>Visítalo</button></a>
         </div>
     </div>
   )
