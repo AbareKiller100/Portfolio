@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import React from 'react'
 import style from './proyectos.module.css'
 
 const Proyectos = () => {
@@ -36,7 +36,7 @@ const Proyectos = () => {
             <img src='../../../assets/captura2IGM.png' alt=''/>
             <img src='../../../assets/captura3IGM.png' alt=''/>
 
-            <Link to='https://rumrum-nyd5.vercel.app/' className={style.ignite}><button>Visítalo</button></Link>
+            <a href='https://rumrum-nyd5.vercel.app/' target='_blank' className={style.ignite}><button>Visítalo</button></a>
             
         </div>
 
@@ -50,7 +50,7 @@ const Proyectos = () => {
             <img src='../../../assets/capturaWL2.png' alt=''/>
             <img src='../../../assets/capturaWL3.png' alt=''/>
             
-            <Link to='https://pf-2-lavenganza-front-6doztsbfp-migorriti.vercel.app/home' className={style.wander}><button>Visítalo</button></Link>
+            <a href='https://pf-2-lavenganza-front-6doztsbfp-migorriti.vercel.app/home' target='_blank' className={style.wander}><button>Visítalo</button></a>
         </div>
     </div>
   )
