@@ -30,7 +30,7 @@ const About = () => {
 
         <div className={style.cv}>
           <h2>Mi CV:</h2>
-          <a href='/assets/Currículum Vitae.pdf' target='_blank'>Link de descarga</a>
+          <a href='/Currículum Vitae.pdf' target='_blank'>Link de descarga</a>
         </div>
 
         <div className={style.contact}>
