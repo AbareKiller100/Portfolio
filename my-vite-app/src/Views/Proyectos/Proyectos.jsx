@@ -32,7 +32,7 @@ const Proyectos = () => {
                 Ignite Motors fue el primer proyecto que desarrollé en equipo durante la etapa final de mi bootcamp en Soy Henry. Se trata de un e-commerce de vehículos diseñado para facilitar actividades comerciales tanto para empresas como compradores sin necesidad de presencia física. Mi función se centró en la creación de controladores y manejadores, así como en el enrutado en el servidor y la estructura de la base de datos. Aunque el proyecto no superó la prueba, representó una valiosa experiencia de trabajo en equipo.
             </p>
             
-            <img src='/captura1IGM.png' alt=''/>
+            <img src='/assets/captura1IGM.png' alt=''/>
             <img src='/assets/captura2IGM.png' alt=''/>
             <img src='/assets/captura3IGM.png' alt=''/>
 
