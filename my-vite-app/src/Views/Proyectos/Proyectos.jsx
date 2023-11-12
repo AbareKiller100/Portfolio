@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './proyectos.module.css'
+import captura1 from '../../../assets/captura1.png'
 
 const Proyectos = () => {
   return (
@@ -20,7 +21,7 @@ const Proyectos = () => {
                 Se trata de una single page application centrada en la temática de Pokémon, alimentada por una API. Mi rol abarcó todas las etapas del proyecto, desde el diseño de la interfaz de usuario hasta el modelado de la base de datos y la integración de la API.
             </p>
             <div className={style.capturas}>
-                <img src='../../../assets/captura1.png' alt='' className={style.imga} />
+                <img src={captura1} alt='' className={style.imga} />
                 <img src='../../../assets/captura2.png' alt='' className={style.imgb} />
                 <img src='../../../assets/captura3.png' alt='' className={style.imgc} />
             </div>
