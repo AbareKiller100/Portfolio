@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import style from './about.module.css'
-import CV from '../../../assets/Currículum Vitae.pdf'
+import CV from '../../../assets/Currículum Vitae (1).pdf'
 
 const About = () => {
   return (
