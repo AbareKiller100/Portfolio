@@ -1,0 +1,90 @@
+.content {
+    margin-top: 125px; 
+}
+
+.aviso{
+
+    width: 300px;
+    height: 120px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    animation-name: agrandamiento;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.aviso h2{
+    animation-name: letras;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    margin-top: 10px;
+    width: 500px;
+    height: 100px;
+}
+
+.aviso button{
+    animation-name: letras;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes letras{
+    from{
+       color: transparent;
+    } 
+    to{
+        color: #ccc;
+        box-shadow: 0 0 10px #E6E6E6;
+    }
+}
+
+@keyframes agrandamiento{
+    from{
+        width: 100px;
+        height: 75px;
+        color: transparent;
+    } 
+    to{
+        width: 650px;
+        height: 400px;
+        background-color: crimson;
+    }
+}
+
+
+/* .content div{
+    width: 240px;
+    height: 270px;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #E6E6E6;
+    padding-bottom: 20px;
+}
+
+.content div h2{
+    color: #ccc;
+}
+
+.content div p{
+    color: #fff;
+}
+
+.portadaPok{
+    margin-right: 150px;
+
+}
+
+.portadaWL{
+    margin-left: 150px;
+}
+
+img{
+    margin-top: 20px;
+    width: 160px;
+    height: 100px;
+    border: 2px solid #ffd700;
+    box-shadow: 0 0 10px #ffd700;
+}   */

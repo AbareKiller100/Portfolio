@@ -1,0 +1,46 @@
+.content {
+    margin-top: 125px; /* La misma altura que la navbar */
+    display: flex;
+    flex-direction: row;
+}
+
+.div{
+    /* border: 5px solid silver; */
+    width: 240px;
+    height: 270px;
+    /* background-image: linear-gradient(to right, #eaeaea, #f6f6f6); */
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #E6E6E6;
+    padding-bottom: 20px;
+}
+
+.div h2{
+    color: #ccc;
+}
+
+.div p{
+    color: #ccc;
+}
+
+/* .portada{
+    margin-right: 150px;
+    /* padding-right: 200px; */
+/* } */
+
+/* .portadaWL{
+    margin-left: 150px;
+} */
+
+img{
+    margin-top: 20px;
+    width: 160px;
+    height: 100px;
+    border: 4px solid #ffd700; /* Borde dorado */
+    box-shadow: 0 0 10px #ffd700;
+}
+
+.button{
+    background-color: #ffd700;
+    box-shadow: 0 0 10px #ffd700;
+}

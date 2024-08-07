@@ -9,17 +9,15 @@ const NavBar = () => {
         </div>
       
         <div className={style.buttons}>
-          <button className={style.button1}>
-            <Link to='/'>Home</Link>
-          </button>
-          <button className={style.button2}>
-            <Link to='/projects'>Proyectos</Link>
-          </button>
-          <button className={style.button3}>
-            <Link to='/about'>Sobre mí</Link>
-          </button>
+          
+            <Link to='/'><button className={style.button1}>Home</button></Link>
+          
+            <Link to='/projects'><button className={style.button2}>Proyectos</button></Link>
+          
+          
+            <Link to='/about' className={style.button3}><button >Sobre mí</button></Link>
+          
         </div>
-        
     </div>
   )
 }

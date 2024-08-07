@@ -2,7 +2,8 @@
     margin-top: 150px;
     color: white;
     text-shadow: 1px 1px 0 black;
-    font-style: oblique;     
+    font-style: oblique; 
+    /* border: 3px solid brown;     */
 }
 
 .About{
@@ -56,16 +57,7 @@
 
 
 .contact a{
-    margin-right: 50px;
-}
-
-.skills{
-    /* margin-right: 80%; */
-    list-style-position: inside;
-    text-align: center; 
-    color: white;
-    text-shadow: 1px 1px 0 black;
-    font-style: oblique;
+    margin-left: 10px;
 }
 
 /* .tech{

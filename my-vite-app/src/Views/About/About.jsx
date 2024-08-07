@@ -7,7 +7,7 @@ const About = () => {
     <div>
         <h2 className={style.header}>Sobre mí</h2>
         <p className={style.About}>
-            Mi nombre es Lorenzo Santos, soy Full Stack web Developer. Mi mundo gira en torno a JavaScript, Node.js, SQL, Express, React, Redux y Sequelize. 
+            Mi nombre es Lorenzo Santos, soy Full Stack web Developer. Mi mundo gira en torno a JavaScript, NodeJS, ExpressJS, SQL, PostgreSQL, Sequelize, HTML, CSS, ReactJS, Redux. 
             Me encanta dar vida a proyectos desde cero.
             Me especializo en Back-end, tengo experiencia trabajando en proyectos al cursar el bootcamp de Soy
             Henry, elaborando filtrado de información, sistema de reviews, modelado de bases de datos relacionales,
@@ -41,31 +41,9 @@ const About = () => {
             
             <a href='https://github.com/AbareKiller100' target='_blank'><li className={style.gith}>GitHub</li></a>
             
-            <li>mail: lorenzosantos100211@gmail.com</li>
+            <li>Mail: lorenzosantos100211@gmail.com</li>
           </ul>
-        </div>
-
-        <div className={style.skills}>
-          <h2>Habilidades:</h2>
-          <label htmlFor="">Tech skills</label>
-          <ul className={style.tech}>
-            <li>Lenguajes de Programación: JavaScript, HTML, CSS, SQL</li>
-            <li className={style.lib}>Herramientas de Frameworks: React, Redux, Node, Express, Sequelize</li>
-            <li className={style.db}>Base de Datos: PostgreSQL, SQLite</li>
-          </ul>
-
-          <label htmlFor="">Soft skills</label>
-          <ul className={style.soft}>
-            <li>Análisis de problemas</li>
-            <li>Aprendizaje ágil</li>
-            <li>Cooperación</li>
-            <li>Mente abierta</li>
-            <li>Liderazgo</li>
-          </ul>
-
-        </div>
-
-        
+        </div>        
     </div>
   )
 }

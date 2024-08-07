@@ -17,7 +17,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: gold;
+    background-color: #ffd700;
+    box-shadow: 0 0 10px #ffd700;
 }
 
 .header h2{
@@ -36,7 +37,8 @@
 }
 
 .buttons button{
-    background-color: gold;
+    background-color: #ffd700;
+    box-shadow: 0 0 10px #ffd700;
 }
 
 .buttons button a{

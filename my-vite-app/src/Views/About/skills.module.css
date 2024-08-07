@@ -1,0 +1,9 @@
+.skills{
+    /* margin-right: 80%; */
+    margin-top: 150px;
+    list-style-position: inside;
+    text-align: center; 
+    color: #fff;
+    text-shadow: 1px 1px 0 black;
+    font-style: oblique;
+}

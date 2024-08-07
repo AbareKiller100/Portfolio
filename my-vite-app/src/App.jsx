@@ -6,9 +6,13 @@ import {Routes,
 Route,
 BrowserRouter} from "react-router-dom"
 import Home from './Views/Home/Home'
-import Proyectos from './Views/Proyectos/Proyectos'
+// import Proyectos from './Views/Proyectos/IntroProyectos'
 import NavBar from './components/nav/NavBar'
 import About from './Views/About/About'
+import Skills from './Views/About/Skills'
+import Data from './Views/About/Data'
+import PosterProjects from './Views/Proyectos/IntroProyectos'
+import Detail from './Views/Detail/Detail'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,9 +43,11 @@ function App() {
         <NavBar/>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/projects' element={<Proyectos/>}/>
+          <Route exact path='/projects' element={<PosterProjects/>}/>
           <Route exact path='/about' element={<About/>}/>
-          
+          <Route exact path='/skills' element={<Skills/>}/>
+          <Route exact path='/data' element={<Data/>}/>
+          <Route exact path='/detail/:id' element={<Detail/>}/>
         </Routes>
       </BrowserRouter>
     </>
