@@ -1,9 +1,79 @@
 .skills{
     /* margin-right: 80%; */
-    margin-top: 150px;
+    /* margin-top: 150px; */
     list-style-position: inside;
     text-align: center; 
     color: #fff;
     text-shadow: 1px 1px 0 black;
     font-style: oblique;
+}
+
+.prim{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+}
+
+.lenguajes{
+    margin-left: 20%;
+}
+
+.diseno{
+    margin-left: 5%;
+}
+
+.lenguajes img{
+    width: 140px;
+    height: 120px;
+    margin-right:20px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 #fff;
+}
+
+.frameworks img{
+   width: 140px;
+    height: 120px;
+    margin-right:20px ;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 #fff;
+}
+
+.database img{
+   width: 140px;
+    height: 120px;
+    margin-right:20px ;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 #fff;
+}
+
+.diseno img{
+   width: 140px;
+    height: 120px;
+    margin-right:20px ;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 #fff;
+}
+
+.platform img{
+   width: 140px;
+    height: 120px;
+    margin-right:20px ;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 #fff;
+}
+
+.version img{
+   width: 140px;
+    height: 120px;
+    margin-right:20px ;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 #fff;
+}
+
+.tools img{
+   width: 140px;
+    height: 120px;
+    margin-right:20px ;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 #fff;
 }
