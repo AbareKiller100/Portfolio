@@ -24,6 +24,13 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         isUrl: true,
         allowNull: false
+      },
+      status:{
+        type: DataTypes.ENUM('CONCLUIDO', 'POR CONCLUIR')
+      },
+      classification:{
+        type: DataTypes.STRING,
+        allowNull: false
       }
     }, 
     {

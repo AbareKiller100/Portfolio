@@ -40,7 +40,7 @@ const getProjectByNameHandler= async(req, res)=>{
         res.status(200).json(response);
     } catch(error){
         console.error(error);
-        res.status(400).json({ message: "Failed to create", error: error.message })
+        res.status(400).json({ message: "Failed to get", error: error.message })
     }
 }
 
