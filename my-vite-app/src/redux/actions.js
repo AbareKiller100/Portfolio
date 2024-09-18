@@ -51,6 +51,8 @@ export const getProjectByName= (name)=>{
             const URL= `http://localhost:3001/project/name?title=${name}`;
             const response= await axios.get(URL)
             const project=response.data;
+            // console.log(project);
+            
             return dispatch({type:GET_PROJECT_BY_NAME, payload:project});
         } catch(error){
             console.error(error);

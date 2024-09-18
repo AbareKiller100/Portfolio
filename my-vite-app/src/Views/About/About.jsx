@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom"
 import style from './about.module.css'
 import CV from '../../../assets/Currículum Vitae (1).pdf'
+import Skills from "./Skills"
 
 const About = () => {
   return (
-    <div>
-        <h2 className={style.header}>Sobre mí</h2>
+    <div className={style.header}>
+        {/* <h2 className={style.header}>Sobre mí</h2> */}
         <p className={style.About}>
             Mi nombre es Lorenzo Santos, soy Full Stack web Developer. Mi mundo gira en torno a JavaScript, NodeJS, ExpressJS, SQL, PostgreSQL, Sequelize, HTML, CSS, ReactJS, Redux. 
             Me encanta dar vida a proyectos desde cero.
@@ -20,18 +21,52 @@ const About = () => {
             permiten enfrentar desafíos técnicos con confianza.
         </p>
 
-        <div className={style.proyectos}>
+        <Skills/>
+
+        {/* <div className={style.proyectos}>
           <h2>Algunos de mis trabajos:</h2>
           <ul>
               <li>Pokemon: proyecto en solitario</li>
               <li>WanderLuxe: proyecto grupal</li>
           </ul>
           <Link to='/projects'>Todos mis proyectos aquí</Link>
-        </div>
+        </div> */}
 
-        <div className={style.cv}>
-          <h2>Mi CV:</h2>
-          <a href={CV} target='_blank'>Link de descarga</a>
+          {/* <div className={style.skills}>
+            <h2>Skills</h2>
+            <h3>Tech skills</h3>
+            <h3>Lenguajes de Programación</h3>
+            <ul className={style.tech}>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>SQL</li>
+            </ul>
+            <h3>Frameworks</h3>
+              <ul>
+                  <li>NodeJS</li>
+                  <li>ExpressJS</li>
+                  <li>Sequelize</li>
+                  <li>ReactJS</li>
+                  <li>Redux</li>
+              </ul>
+            <h3>Base de datos</h3>
+              <ul>
+                  <li>PostgreSQL</li>
+              </ul>
+
+            <h3>Soft skills</h3>
+              <ul className={style.soft}>
+                <li>Análisis de problemas</li>
+                <li>Aprendizaje ágil</li>
+                <li>Cooperación</li>
+                <li>Mente abierta</li>
+                <li>Liderazgo</li>
+              </ul> */}
+
+          {/* </div> */}
+
+        <div className={style.cv}>  
+          <a href={CV} target='_blank'><button>Descargar CV</button></a>
         </div>
 
         <div className={style.contact}>

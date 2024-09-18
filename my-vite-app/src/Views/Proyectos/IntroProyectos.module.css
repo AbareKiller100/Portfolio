@@ -50,10 +50,22 @@
     to{
         width: 650px;
         height: 400px;
-        background-color: crimson;
+        background-color: red;
     }
 }
 
+.concluidos{
+    color: #000;
+    background-color: #ffd700;
+    box-shadow: 0 0 10px #ffd700;
+}
+
+.noConcluidos{
+    color: #fff;
+    box-shadow: 0 0 10px #E6E6E6;
+    background-color: #ccc;
+    margin-top: 100px;
+}
 
 /* .content div{
     width: 240px;

@@ -1,4 +1,10 @@
 import style from './skills.module.css'
+import JS from '../../../Capturas_Proyectos/javascript-logo.png'
+import HTML from '../../../Capturas_Proyectos/html5-original.svg'
+import CSS from '../../../Capturas_Proyectos/css3-original.svg'
+import TS from '../../../Capturas_Proyectos/typescript-original.svg'
+import SQL from '../../../Capturas_Proyectos/SQL-icon.png'
+
 
 const Skills= () =>{
     return(
@@ -6,11 +12,11 @@ const Skills= () =>{
           <h2>Skills</h2>
           <h3>Tech skills</h3>
           <h3>Lenguajes de Programación</h3>
-          <ul className={style.tech}>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>SQL</li>
-          </ul>
+          <img src={JS} alt="JavaScript" />
+          <img src={HTML} alt="HTML" />
+          <img src={CSS} alt="CSS" />
+          <img src={SQL} alt="SQL" />
+          <img src={TS} alt='TS' />
           <h3>Frameworks</h3>
             <ul>
                 <li>NodeJS</li>

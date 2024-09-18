@@ -13,6 +13,7 @@ import Skills from './Views/About/Skills'
 import Data from './Views/About/Data'
 import PosterProjects from './Views/Proyectos/IntroProyectos'
 import Detail from './Views/Detail/Detail'
+import DetailInc from './Views/Detail/DetailInc'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -48,6 +49,7 @@ function App() {
           <Route exact path='/skills' element={<Skills/>}/>
           <Route exact path='/data' element={<Data/>}/>
           <Route exact path='/detail/:id' element={<Detail/>}/>
+          <Route exact path='/detailInc' element={<DetailInc/>}/>
         </Routes>
       </BrowserRouter>
     </>

@@ -4,18 +4,26 @@ import { useEffect, useState } from 'react';
 import ProjectsCards from '../../components/Cards/Cards';
 import { getProjectByName, getProjects } from '../../redux/actions';
 import SearchBar from '../../components/SearchBar';
+import { Link } from 'react-router-dom';
 
 const PosterProjects=()=>{
     const dispatch= useDispatch();
     
     const projects= useSelector((state)=> state.projects);
 
+    let concluidos= projects.filter((p)=> p.status==='CONCLUIDO')
+    let noConcluidos= projects.filter((p)=> p.status==='POR CONCLUIR')
+
+    console.log('concluidos: ', concluidos);
+    console.log('No concluidos: ', noConcluidos);
+
+
     useEffect(()=>{ 
         dispatch(getProjects());
         return (()=> dispatch(getProjects()));
     }, [dispatch])
 
-    console.log(projects);
+    
 
     const [getName, setGetName]=useState('');
 
@@ -39,18 +47,31 @@ const PosterProjects=()=>{
         window.location.reload();
     }
 
+    
     return (
         <div className={style.content}>
 
-            <SearchBar handleSearch={handleSearch} handleGetProjects={handleGetProjects}/>
-
             {
-                !projects.length
-                ? <div className={style.aviso}>
-                    <h2>¿Portafolio equivocado bro? Ese proyecto no es mío </h2>
+                projects.length
+                ? 
+                <>
+                    <SearchBar handleSearch={handleSearch} handleGetProjects={handleGetProjects}/>
+                    <div>
+                        <h2 className={style.concluidos}>Proyectos realizados</h2>
+                        <ProjectsCards projects={concluidos}/>
+                    </div>
+
+                    <div>
+                        <h2 className={style.noConcluidos}> Trabajos recientes</h2>
+                        <ProjectsCards projects={noConcluidos}/>
+                    </div>
+
+                </>
+                
+                : (<div className={style.aviso}>
+                    <h2>¿Portafolio equivocado? Ese proyecto no es mío. </h2>
                     <button onClick={handleReload}>Vuelve a buscar</button>
-                </div>
-                : <ProjectsCards projects={projects}/>
+                </div>)
             }
 
         </div>
