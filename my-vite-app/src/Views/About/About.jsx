@@ -6,7 +6,7 @@ import Skills from "./Skills"
 const About = () => {
   return (
     <div className={style.header}>
-        {/* <h2 className={style.header}>Sobre mí</h2> */}
+
         <p className={style.About}>
             Mi nombre es Lorenzo Santos, soy Full Stack web Developer. Mi mundo gira en torno a JavaScript, NodeJS, ExpressJS, SQL, PostgreSQL, Sequelize, HTML, CSS, ReactJS, Redux. 
             Me encanta dar vida a proyectos desde cero.

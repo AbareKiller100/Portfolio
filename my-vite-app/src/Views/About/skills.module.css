@@ -12,10 +12,41 @@
     display: flex;
     flex-direction: row;
     align-items:start;
+    margin-bottom: 70px;
 }
 
 .lenguajes{
     margin-left: 20%;
+}
+
+.frameworks{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.front{
+    margin-left: 20%;
+}
+.back{
+    margin-left: 5%;
+}
+
+.otros{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    margin-top: 50px;
+}
+
+.platform{
+    margin-left: 10%;
+}
+.tools, .version{
+    margin-left: 5%;
+
 }
 
 .diseno{
@@ -44,6 +75,7 @@
     margin-right:20px ;
     border: 2px solid #fff;
     box-shadow: 0 0 0 #fff;
+
 }
 
 .diseno img{
@@ -76,4 +108,8 @@
     margin-right:20px ;
     border: 2px solid #fff;
     box-shadow: 0 0 0 #fff;
+}
+
+img{
+    background-color: #fff;
 }
