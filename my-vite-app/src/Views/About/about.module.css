@@ -45,6 +45,7 @@
     color: white;
     text-shadow: 1px 1px 0 black;
     font-style: oblique;
+    margin-bottom: 70px;
 }
 
 .contact{
@@ -53,26 +54,16 @@
     color: white;
     text-shadow: 2px 2px 0 black;
     font-style: oblique;
+    margin-top: 70px;
 }
 
 
 
 .contact a{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
-/* .tech{
-    width: 500px;
-} */
-
-/* .tech ul li{
-    width: 500px; 
-} */
-
-/* .lib{
-    width: 500px;
-} */
-/* 
-.db{
-    margin-right: 35%;
-} */
+.linkedin img, .github img, .gmail img{
+    width: 30px;
+    height: 30px;
+}

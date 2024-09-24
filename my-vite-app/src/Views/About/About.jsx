@@ -2,6 +2,9 @@ import { Link } from "react-router-dom"
 import style from './about.module.css'
 import CV from '../../../assets/Currículum Vitae (1).pdf'
 import Skills from "./Skills"
+import github from '../../../Capturas_Proyectos/github-original-wordmark.svg'
+import linkedin from '../../../Capturas_Proyectos/linkedin-logo.png'
+import gmail from '../../../Capturas_Proyectos/gmail-logo.png'
 
 const About = () => {
   return (
@@ -20,6 +23,9 @@ const About = () => {
             de resolución de problemas, comunicación efectiva y la capacidad para aprender rápidamente me
             permiten enfrentar desafíos técnicos con confianza.
         </p>
+        <div className={style.cv}>  
+          <a href={CV} target='_blank'><button>Descargar CV</button></a>
+        </div>
 
         <Skills/>
 
@@ -65,19 +71,27 @@ const About = () => {
 
           {/* </div> */}
 
-        <div className={style.cv}>  
-          <a href={CV} target='_blank'><button>Descargar CV</button></a>
-        </div>
+
 
         <div className={style.contact}>
-          <h2 className={style.ch2}>Datos de contacto:</h2>
-          <ul>
-            <a href='https://www.linkedin.com/in/lorenzo-santos-34a109267/' target='_blank'><li className={style.linkd}>LinkedIn</li></a>
+          <h2 className={style.ch2}>¡Contáctame!</h2>
+
+
+            <div className={style.linkedin}>
+              <img src={linkedin} alt='' />
+              <a href='https://www.linkedin.com/in/lorenzo-santos-34a109267/' target='_blank'>LinkedIn</a>
+            </div>
+
+            <div className={style.github}>
+              <img src={github} alt="" />
+              <a href='https://github.com/AbareKiller100' target='_blank'>GitHub</a>
+            </div>
             
-            <a href='https://github.com/AbareKiller100' target='_blank'><li className={style.gith}>GitHub</li></a>
+            <div className={style.gmail}>
+              
+              <p> <img src={gmail} alt="" /> lorenzosantos100211@gmail.com</p>
+            </div>
             
-            <li>Mail: lorenzosantos100211@gmail.com</li>
-          </ul>
         </div>        
     </div>
   )
