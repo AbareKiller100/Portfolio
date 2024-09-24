@@ -21,6 +21,13 @@ import GITHUB from '../../../Capturas_Proyectos/github-original-wordmark.svg'
 import VS from '../../../Capturas_Proyectos/vscode-original-wordmark.svg'
 import POSTMAN from '../../../Capturas_Proyectos/postman-original-wordmark.svg'
 
+import analisis from '../../../Capturas_Proyectos/foco.jpg';
+import aprendizaje from '../../../Capturas_Proyectos/aprendizaje-agil.avif';
+import cooperacion from '../../../Capturas_Proyectos/cooperación.png';
+import mente from '../../../Capturas_Proyectos/mente-abierta.jpg';
+import liderazgo from '../../../Capturas_Proyectos/liderazgo.webp';
+
+
 const Skills= () =>{
     return(
         <div className={style.skills}>
@@ -90,14 +97,23 @@ const Skills= () =>{
           
           
           <h2>Soft skills</h2>
-          <ul className={style.soft}>
-            <li>Análisis de problemas</li>
-            <li>Aprendizaje ágil</li>
-            <li>Cooperación</li>
-            <li>Mente abierta</li>
-            <li>Liderazgo</li>
-          </ul>
+          <div className={style.soft}>
 
+            <div> <p>Análisis de problemas</p>
+            <img src={analisis} alt='Análisis de problemas'/></div>
+              
+            <div> <p>Aprendizaje ágil</p>
+            <img src={aprendizaje} alt='Aprendizaje'/></div>
+
+            <div> <p>Cooperación</p>
+            <img src={cooperacion} alt='Cooperación'/></div>
+
+            <div> <p>Mente abierta</p>
+            <img src={mente} alt='Mente abierta'/></div>
+
+            <div> <p>Liderazgo</p>
+            <img src={liderazgo} alt='Liderazgo'/></div>
+          </div>
         </div>
     )
 }
